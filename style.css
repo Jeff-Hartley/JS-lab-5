@@ -1,0 +1,28 @@
+:root {
+    --bg-color : rgb(15, 15, 15);
+    --main-color : rgb(117, 150, 56);
+    --second-color : rgb(196, 235, 123);
+
+}
+
+body {
+    background-color: var(--bg-color);
+    text-align: center;
+}
+
+h1 {
+    color: var(--main-color);
+}
+
+p {
+    color: var(--second-color);
+}
+
+hr {
+    color: var(--main-color);
+    width: 10%;
+}
+
+footer {
+    font-size: 11px;
+}
